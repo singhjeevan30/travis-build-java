@@ -1,2 +1,4 @@
 language: java
+before_script:
+        - "mvn web3j:generate-sources"
 script: mvn install
